@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: med_spa
+    password: med_spa
+    url: jdbc:mysql://localhost:3306/med_spa
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
+    
+  sql:
+    init:
+      mode: never
